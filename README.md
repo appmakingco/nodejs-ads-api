@@ -1,5 +1,7 @@
 # Node JS ADS API Doc
 
+This API is created for learning purpose & deployed on Heroku Free Plan (so first request may take longer time)
+
 URL: https://adlisting.herokuapp.com
 
 ## Auth API
