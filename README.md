@@ -143,7 +143,7 @@ You need to upload file as a **multipart/form-data**
 **How to upload single image**
 
 ```
-POST /upload/picture
+POST /upload/profile
 ```
 
 Input name: avatar
