@@ -8,9 +8,11 @@ URL: https://adlisting.herokuapp.com
 
 **How to Register new user?**
 
-`POST /register`
+```
+POST /auth/register
+```
 
-Input
+Required Input
 
 ```
 {
@@ -22,9 +24,11 @@ Input
 
 **How to login?**
 
-`POST /login`
+```
+POST /auth/login
+```
 
-Input
+Required Input
 
 ```
 {
@@ -32,6 +36,34 @@ Input
   "password": "123456"
 }
 ```
+
+## Profile API
+
+**How to read current user profile?**
+
+```
+POST /user/profile
+```
+
+This POST method requires authorization (Bearer). so you need to pass your JWT token inside header.
+
+**How to update user profile?**
+
+```
+PATCH /user/
+```
+
+Inputs:
+
+```
+{
+  "name": "sundar",
+  "email": "abcdefg",
+  "imgURL": "http://site.com/image.png"
+}
+
+```
+This POST method requires authorization (Bearer). so you need to pass your JWT token inside header.
 
 ## Ads API
 
@@ -106,7 +138,7 @@ This DELETE method requires authorization (Bearer). so you need to pass your JWT
 
 ## Uploads API
 
-You need to upload file as a multipart/form-data
+You need to upload file as a **multipart/form-data**
 
 **How to upload single image**
 
