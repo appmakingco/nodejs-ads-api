@@ -107,7 +107,7 @@ This POST method requires authorization (Bearer). so you need to pass your JWT t
 **How to update ad?**
 
 ```
-PATCH /ads
+PATCH /ads/:id
 ```
 
 Input:
