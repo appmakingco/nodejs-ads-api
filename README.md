@@ -18,7 +18,8 @@ Required Input
 {
   "name":"sundar",
   "email":"sundar@appmaking.co",
-  "password": "123456"
+  "password": "123456",
+  "mobile":"+919876543210"
 }
 ```
 
@@ -58,7 +59,8 @@ Inputs:
 ```
 {
   "name": "sundar",
-  "email": "abcdefg",
+  "email": "update@demo.com",
+  "mobile": "+919876543200",
   "imgURL": "http://site.com/image.png"
 }
 
@@ -90,7 +92,7 @@ Input (body):
     "mobile": "+919500707757",
     "images":[
       "uploads/file.jpg",
-      "uploads/file1.jpg",
+      "uploads/file1.jpg"
     ]
 }
 ```
@@ -120,7 +122,7 @@ Input:
     "mobile": "+919500707757",
     "images":[
       "uploads/file.jpg",
-      "uploads/file1.jpg",
+      "uploads/file1.jpg"
     ]
 }
 ```
